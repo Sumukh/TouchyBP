@@ -27,10 +27,10 @@
         <!-- Normalize css by : http://labs.doat.com/touchybp/#normalize.mobile.css -->
         <script> 
             var csspath = isTouch ? 'normalize.mobile.css' : 'normalize.css';
-            document.write('<link rel="stylesheet" href="../../css/normalize.css/' + csspath + '"><\/script>');
+            document.write('<link rel="stylesheet" href="/css/normalize.css/' + csspath + '"><\/script>');
         </script>
         <!-- TouchyPHP:getFile lets you reduce http requests: http://labs.doat.com/touchyphp/#getFile -->
-        <link href="../../css/style.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
 
         <!-- Hide content before rendering: http://labs.doat.com/touchyjs/#nav-dependancy  -->
@@ -57,13 +57,13 @@
         
         <script>
             if(!isTouch) {
-                document.write('<script src="../../js/libs/jquery-1.6.2.min.js"><\/script>');
+                document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>');
             } else {
                 document.write('<script src="http://developer.stg.doat.com/min/g=zepto.0.7&debug"><\/script>');
             }
         </script>
         
-        <script src="../../js/libs/touchy.min.js"></script>
+        <script src="js/libs/touchy.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
